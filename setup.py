@@ -10,7 +10,10 @@ setup(
     license='BSD',
     packages=find_packages(),
     url='http://rbas@github.com/rbas/django-nojo/',
-    install_requires=['setuptools'],
+    install_requires=[
+        'setuptools',
+        'BeautifulSoup'
+    ],
     zip_safe=False,
     classifiers=[
         'Development Status :: 4 - Beta',
