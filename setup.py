@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-nojo',
-    version='0.1.2',
+    version='0.1.3',
     author='Rbas & Rumman23',
     author_email='rbas.cz@gmial.com',
     description=('Django common tools'),
