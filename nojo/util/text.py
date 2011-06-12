@@ -12,7 +12,7 @@ def cut_string(string, length, end_text='...'):
     Výsledek je v unicode.
 
     Použití:
-    >>> print(cut_string('<p>Zlat&yacute valoun</p>', 12))
+    >>> print(cut_string('<p>Zlat&yacute valoun</p>', 8))
     Zlatý...
     """
     string = force_unicode(string)
@@ -36,7 +36,7 @@ def decode_entities(string):
     Pro převod používá knihovnu BeautifulSoup
 
     Použití:
-    >>> print(decode_entities('&yacute'))
+    >>> print(decode_entities('&yacute;'))
     ý
     """
     from BeautifulSoup import BeautifulStoneSoup
